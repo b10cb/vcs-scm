@@ -1,0 +1,8 @@
+---
+- name: Play-1
+  hosts: all
+  become: yes
+  tasks:
+    - name: check
+      command: hostname
+...
